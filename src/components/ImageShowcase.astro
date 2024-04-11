@@ -1,0 +1,10 @@
+---
+  const { image, title, prompt, description } = Astro.props;
+---
+
+<img src={image} class="max-h-screen" alt="AI Generated Image of Bustling Oslo in April">
+<div class="flex-1 h-full p-10 flex flex-col  justify-center">
+  <h2 class="text-3xl font-bold">{title}</h2>
+  <h3 class="brightness-75 text-sm">Prompt: {prompt}</h3>
+  <p class="text-xl mt-4">{description}</p>
+</div> 
